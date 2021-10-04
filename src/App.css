@@ -1,0 +1,200 @@
+/* start of navbar */
+
+
+.navbar {
+  /* position: fixed; */
+  /* top: 33px; */
+  /* left: 0; */
+  /* right: 0; */
+  z-index: 4;
+  width: 100%;
+  padding: 0 30px;
+  box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+  background-color: white;
+}
+
+
+
+.navbar-nav .nav-item .nav-link {
+  color: rgb(5,5,5);
+  padding-right: 30px;
+  transition: all 0.6s ease;
+
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgba(0, 100, 0, 0.651);
+  
+  transform: scaleX(1.1);
+}
+
+nav .logo-left{
+  margin-left: -5%;
+}
+
+nav .right-nav{
+  margin-right: -8%;
+}
+
+
+.green-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+button.green-btn{
+  border: rgba(0, 100, 0, 0.651) solid 1px;
+  background-color: rgba(0, 100, 0, 0.651);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px 2px grey;
+  transition: all 0.5s ease;
+}
+
+button.green-btn:hover{
+  background-color: rgba(0, 100, 0, 0.788);
+  transform: translateY(-3px);
+}
+
+
+/* end of navbar */
+
+/* start of carsoul */
+
+/* .slider{
+  position: absolute;
+  top: 5%;
+  right: 0;
+  left: 0;
+} */
+
+.slider .carousel .carousel-inner .carousel-item img{
+  height: 650px;
+  width: 100%;
+}
+
+/* End of carousel */
+
+
+/* start of about  */
+
+.aboutUs{
+  padding: 50px 0;
+  background-color: rgb(228, 222, 222);
+}
+
+.aboutUs h2{
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: rgba(0, 100, 0, 0.788);
+}
+
+.aboutUs hr{
+  width: 3.5%;
+  color: rgba(0, 100, 0, 0.788);
+  border-top: 3px solid rgba(0, 100, 0, 0.788);
+  display: block;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.aboutUs .abouttxt{
+  line-height: 1.5;
+  font-weight: 200;
+  padding: 20px;
+}
+
+
+/* end of about  */
+
+
+
+
+/* start of team  */
+
+.team{
+  padding: 70px 0;
+  border-bottom: 1px rgb(228, 224, 224) solid;
+}
+
+
+.team .team-line hr{
+  width: 3.5%;
+  color: rgba(0, 100, 0, 0.788);
+  border-top: 3px solid rgba(0, 100, 0, 0.788);
+  display: block;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.team .team-h h2{
+  font-weight: 400;
+  padding-bottom: 50px;
+  color: rgba(0, 100, 0, 0.788);
+}
+
+.team .t-members img{
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.team .t-members h4{
+  font-weight: 400;
+}
+
+.team .t-members .jobTitle{
+  font-size: 15px;
+  color: rgb(168, 168, 168);
+  padding-bottom: 15px;
+}
+
+.team .t-members .desc-t{
+  font-size: 15px;
+  color: gray;
+}
+
+/* end of team  */
+
+/* start of footer  */
+
+footer{
+  background-color: slategrey;
+  padding-top: 50px;
+  color: rgb(223, 215, 215);
+}
+
+/* h6{
+  padding-bottom: 10px;
+  border-bottom: rgb(148, 11, 38) solid 2px;
+} */
+
+h6:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  
+  width: 25%; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 2px solid rgb(138, 26, 26); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.ft-list li{
+  list-style: none;
+  
+}
+
+.ft-list a{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.ft-list a:hover{
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgba(0, 100, 0, 0.788);
+}
+
+/* end of footer  */
